@@ -15,6 +15,7 @@ namespace SingleSignOn.Service
            
         }
 
+        //Creates a DB
         public DbSet<UserDetails> Users { get; set; } 
     }
 }
